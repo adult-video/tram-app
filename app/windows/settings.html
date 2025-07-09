@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/settings.css">
+  </head>
+  <body class="properties">
+    <div id="settings" class="sectionTram-active">
+      <aside class="sidebar">
+        <table class="sections">
+          <tr><td>Settings</td></tr>
+          <tr><td><br></td></tr>
+          <tr><th id="sectionGeneralButton" class="trigger" data-trigger="selectSectionGeneral">General</th></tr>
+          <tr><th id="sectionTramButton" class="trigger" data-trigger="selectSectionTram">Tram</th></tr>
+        </table>
+      </aside>
+      <main class="main">
+        <table class="section" id="sectionGeneral">
+          <tr>
+          <th>
+            Fontsize
+          </th>
+          <td>
+            <span id="generalFontsize"></span>px <span class="trigger" data-trigger="decreaseFontsize">[-</span>\<span class="trigger" data-trigger="increaseFontsize">+]</span>
+          </td>
+          </tr>
+          <tr>
+            <th>
+              Align Text
+            </th>
+            <td>
+              <span id="generalAlignTextCenter"  class="trigger" data-trigger="toggleGeneralAlignTextCenter" data-false="left" data-true="center"></span>
+            </td>
+          </tr>
+        </table>
+      <div class="section" id="sectionTram">
+        <table>
+          <tr>
+            <th>
+              Comment Indicator
+            </th>
+            <td>
+              <span id="tramCommentIndicator"  class="trigger" data-trigger="setTramCommentIndicator"></span>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Mapping Indicator
+            </th>
+            <td>
+              <span id="tramMappingIndicator"  class="trigger" data-trigger="setTramMappingIndicator"></span>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Data Delimiter
+            </th>
+            <td>
+              <span id="tramDataDelimiter"  class="trigger" data-trigger="setTramDataDelimiter"></span>
+            </td>
+          </tr>
+          <tr><td><br></td></tr>
+        </table>
+        <table id="tramMapping">
+        </table>
+        <table>
+          <td id="addTramMapping" class="trigger" data-trigger="addTramMapping">+</td>
+        </table>
+      </div>
+      </main>
+    </div>
+    <script type="module" src="../js/windows/settings.js"></script>
+  </body>
+</html>
