@@ -6,7 +6,7 @@ Please refer to [this](https://github.com/adult-video/tram) documentation for th
 
 ## Installation
 
-There are two ways to use TMRA. Either install a build for your platform from itch.io: [acidatm.itch.io/tram](https://acidatm.itch.io/tram)
+There are two ways to use TRAM. Either install a build for your platform from itch.io: [acidatm.itch.io/tram](https://acidatm.itch.io/tram)
 
 Or run it within electron.js
 
