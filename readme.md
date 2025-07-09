@@ -1,8 +1,14 @@
+![](img/logo_banner.jpg)
+
 # TRAM
 
-TRAM is short for **T**ypographic **R**ythm **A**automation **M**achine and is a livecoding enviroment for MIDI.
+TRAM is short for **T**ypographic **R**ythm **A**utomation **M**achine and is a live coding enviroment for MIDI.
 
 Please refer to [this](https://github.com/adult-video/tram) documentation for the programming language TRAM.
+
+![](img/cover.jpg)
+
+![](img/screenshot2.png)
 
 ## Installation
 
