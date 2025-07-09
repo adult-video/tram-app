@@ -17,7 +17,7 @@ There are two ways to use TRAM. Either install a build for your platform from it
 Or run it within electron.js
 
 ```
-git clone --recurse-submodules https://github.com/acidatm/tram-app.git
+git clone --recurse-submodules https://github.com/adult-video/tram-app.git
 cd tram-app/app
 npm install
 npm start
