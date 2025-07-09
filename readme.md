@@ -30,9 +30,6 @@ From the UI you can access many functions that are also accessible from the main
 - Save - Will save the current state as a `.tram` file
 - Open - Allows you to open a previously state that was saved to file.
 - Settings - Will open the Settings window
-- Export Image - Will export a PNG of the current visual (without text). You can stop the sequencer and then use the `Transport>Forwards` and `Transport>Backwards` functions from the menu to slowly step through the visual.
-- Start Recording -> Will start the inbuilt screen recorder for the visual (without text). A running recording is indicated by the blinking transport button in the upper right corner
-- Stop Recording -> Will stop a running recording and save it as a `.webm` video.
 
 ### View
 
@@ -64,13 +61,6 @@ From the UI you can access many functions that are also accessible from the main
 - Toggle Transport Send - Toggles the MIDI transport send. NOTE: some devices will only accept transport messages when a clock signal is sent as well
 - Toggle Transport Recieve - Toggles the MIDI transport recieve
 
-### Window
-
-- Focus Workspace - Will bring the main window to the front
-- Switch Window - Will switch between all open application windows
-- Open Viewer - Will open a standalone viewer window for the visual
-- Open Editor - Will open a standalone editor that is synced with the main window but has no UI and no visual in the background
-
 ## Some notes on the MIDI implementation
 
 MIDI is a tricky thing. The MIDI implementation in this application is as good as it needed to be so far. But there are a couple of known pitfalls and shortcomings.
@@ -93,7 +83,12 @@ When clock recieve is turned on the internal clock will be disabled, regardless 
 
 ## Version History
 
-- **0.1 (Build)** - Initial release
+- **0.1.0** - Initial release
+- **0.2.0** - Switched from sample based engine to MIDI
+  - **0.2.1** - Fixed wrong shortcuts
+
+- **0.3.0** - Added editor and mapping window, added support for mapping words
+- **0.4.0** - Refactoring, switch to shared codebase for all adult-video projects, replaced editor and mapping with settings, added default sampler, improved MIDI implementation
 
 ## Known Issues
 
