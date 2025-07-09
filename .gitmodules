@@ -1,0 +1,6 @@
+[submodule "app/js/submodules/tram"]
+	path = app/js/submodules/tram
+	url = https://github.com/adult-video/tram.git
+[submodule "app/js/submodules/av"]
+	path = app/js/submodules/av
+	url = https://github.com/adult-video/av.git

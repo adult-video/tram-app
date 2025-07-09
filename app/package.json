@@ -1,17 +1,14 @@
 {
   "name": "TRAM",
   "productName": "TRAM",
-  "version": "0.3.0",
-  "description": "TRAM is short for Typographic Rythm Automation Machine. TRAM is a general purpose midi controller.",
+  "version": "0.4.0",
+  "description": "TRAM is short for Typographic Rythm Automation Machine - a live coding enviroment for MIDI",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build_osx": "electron-packager . TRAM --platform=darwin --arch=x64 --out ../builds --overwrite --icon=icon.icns ; echo 'Built for OSX'",
-    "build_linux": "electron-packager . TRAM --platform=linux  --arch=x64 --out ../builds --overwrite --icon=icon.ico ; echo 'Built for LINUX'",
-    "build_win": "electron-packager . TRAM --platform=win32  --arch=x64 --out ../builds --overwrite --icon=icon.ico ; echo 'Built for WIN'",
-    "build_all": "electron-packager . TRAM --platform=darwin --arch=x64 --out ../builds --overwrite --icon=icon.icns ; electron-packager . TRAM --platform=win32  --arch=x64 --out ../builds --overwrite --icon=icon.ico ; echo 'Built for all OS'"
+    "build": "electron-packager . TRAM --platform=darwin --arch=x64 --out ../builds --overwrite --icon=icons/icon.icns ; echo 'Built for OSX'"
   },
-  "repository": "https://github.com/softboydev/tram",
+  "repository": "https://github.com/adult-video/tram-app",
   "keywords": [],
   "author": "Johannes Hassenstein",
   "license": "CC0-1.0",
